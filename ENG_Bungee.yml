@@ -1,0 +1,132 @@
+#  ______   ______     __     ______     __    __     ______
+# /\  == \ /\  == \   /\ \   /\  ___\   /\ "-./  \   /\  ___\
+# \ \  _-/ \ \  __<   \ \ \  \ \___  \  \ \ \-./\ \  \ \ \____
+#  \ \_\    \ \_\ \_\  \ \_\  \/\_____\  \ \_\ \ \_\  \ \_____\
+#   \/_/     \/_/ /_/   \/_/   \/_____/   \/_/  \/_/   \/_____/
+#
+# PrisBungeeHandlerv2 Messages
+# By: Skarless
+#
+#
+# NOTICE: This file is subject to change! New translations may be needed-
+# at any time. If you're a translator, you will be notified on changes-
+# and additions made. Thank you!
+#
+# |-----------------------------------|
+# |  Translation Rules & Formatting:  |
+# |-----------------------------------|
+# 
+# > Do NOT change color codes. Color codes must be kept consistent between languages.
+#   A color code can be seen in every messsage as an '&' symbol followed by a character.
+#   For Example: "&b", "&2", "&l", "&f", and so on...  <<< DO NOT CHANGE THESE
+#
+# > When using a an apostrophe('), make sure to follow it by another.
+#   For Example: "This isn''t a game, this is my life."
+#
+# > Variables are placed in certain messages to be swapped out for a player's username or other information.
+#   These variables appear in brackets(ex: [PLAYER] [FRIEND] [MORTAL_ENEMY]), and will be auto-
+#   filled by the server. DO NOT change the text within the brackets, otherwise the server will not-
+#   know to replace the text.
+#
+
+Friends:
+  General:
+    UnknownCommand: '&5Friends: &cThis command does not exist.'
+    MissingPerms: '&5Friends: &cInsufficient permissions.'
+    NotOnline: '&5Friends: &cThat player is not online!'
+    MissingArgs: '&5Friends: &cYou must include a player.'
+    Spacer: '&9-----------------------------------------------------'
+  Help:
+    Accept: '&7/&5friend &baccept <player> &7- &fAccept a friend request.'
+    Add: '&7/&5friend &badd <player> &7- &fAdd a friend.'
+    Deny: '&7/&5friend &bdeny <player> &7- &fDecline a friend request.'
+    List: '&7/&5friend &blist <page> &7- &fSee your friends.'
+    Notifications: '&7/&5friend &bnotifications &7- &fToggle friend notifications.'
+    Remove: '&7/&5friend &bremove &7- &fRemove a friend.'
+    Toggle: '&7/&5friend &btoggle &7- &fToggle friend requests.'
+    Header: '&d&lFriends'
+  Add:
+    Toggled: '&5Friends: &cThis player has friend requests disabled.'
+    CantFriendYourself: '&5Friends: &cYou can''t friend yourself!'
+    TimedOutFrom: '&5Friends: &cYour friend request from &e[PLAYER] &chas timed out!'
+    TimedOutTo: '&5Friends: &cYour friend request to &e[PLAYER] &chas timed out!'
+    Sent: '&5Friends: &aYou have successfully sent a friend request!'
+    AlreadySent: '&5Friends: &cYou have already sent that player a request.'
+    AlreadyReceived: '&5Friends: &cYou have already received a request from that player.'
+    AlreadyFriends: '&5Friends: &cYou are already friends with this player.'
+    Request: '&6[PLAYER] &ehas sent you a friend request!'
+    ADD: '&a&lADD'
+    OR: '&7 or '
+    DENY: '&c&lDENY'
+    ADDHover: '&7Click me to accept this request.'
+    DENYHover: '&7Click me to deny this request.'
+  Accept:
+    NoRequest: '&5Friends: &cYou do not have a request from this player.'
+    NowFriends: '&5Friends: &aYou are now friends with &e[PLAYER]&a!'
+  List:
+    Header: '&d&lYour Friends'
+    RightArrow: '&2&l>>'
+    LeftArrow: '&2&l<<'
+    NoRight: '&4&l>>'
+    NoLeft: '&4&l<<'
+    HoverPage: '&6Page [PAGE]'
+    OnlineMessage: '&7- &a[PLAYER] &e[STATUS]'
+    OfflineMessage: '&7- &4[PLAYER] &cis currently offline.'
+    Status:
+      RPG: is currently playing Prison.
+      Lobby: is currently in The Lobby.
+    NoFriends: '&c&lYou have no friends! '
+    UwU: '&d(✿◠‿◠) &6&oDon''t worry, I''ll be your friend. &c<3'
+    NotAPage: '&5Friends: &cThat is not a valid page number.'
+    CurrentPage: '&6Page: [PAGE] of [MAXPAGES].'
+  Remove:
+    CantRemoveYourself: '&5Friends: &cYou can''t remove yourself!'
+    NotFriends: '&5Friends: &cYou are not friends with this player!'
+    BFFRemoved: '&5Friends: &e[PLAYER] &chas removed you from their friends list!'
+    FrenemyRemoved: '&5Friends: &e[PLAYER] &ahas been removed from your friends list!'
+  Deny:
+    NoRequest: '&5Friends: &cYou do not have a request from this player.'
+    YouDeclined: '&5Friends: &aYou have declined &e[PLAYER]&a''s friend request.'
+    GotDeclined: '&5Friends: &e[PLAYER] &chas declined your friend request.'
+  Notifications:
+    Online: '&5Friends: &a[PLAYER] &2has connected.'
+    Offline: '&5Friends: &c[PLAYER] &4has disconnected.'
+    ToggledOn: '&5Friends: &aYou have enabled friend notifications.'
+    ToggledOff: '&5Friends: &cYou have disabled friend notifications.'
+  Requests:
+    ToggledOn: '&5Friends: &aYou have enabled friend requests.'
+    ToggledOff: '&5Friends: &cYou have disabled friend requests.'
+Language:
+  General:
+    ImproperUsage: '&cImproper usage, try: /language change <lang>'
+    Update: '&aLanguage updated!'
+    Unknown: '&cUnknown language.'
+Message:
+  NotOnline: '&cThat player is not online!'
+  ImproperUsage: '&cImproper usage, try: /msg <player> <message>'
+  From: '&d[PLAYER] &6messaged you: &e[MESSAGE]'
+  To: '&6You messaged &d[PLAYER]: &e[MESSAGE]'
+  CantMessagePlayer: '&cYou can''t message this player.'
+  ToggledOff: '&cNo one can send you messages.'
+  ToggledFriends: '&6Only friends can send you messages.'
+  ToggledOn: '&aAnyone can send you messages.'
+Party:
+  General:
+    UnknownCommand: '&5Party: &cThis command does not exist.'
+    MissingPerms: '&5Party: &cInsufficient permissions.'
+    NotOnline: '&5Party: &cThat player is not online!'
+    MissingArgs: '&5Party: &cYou must include a player.'
+    Spacer: '&9-----------------------------------------------------'
+  Help:
+    Accept: '&7/&5party &baccept <player> &7- &fAccept a party request.'
+    Invite: '&7/&5party &binvite <player> &7- &fInite a player to the party.'
+    Kick: '&7/&5party &bkick <player> &7- &fKick a player from the party.'
+    Leave: '&7/&5party &bleave <player> &7- &fLeave the party.'
+    Disband: '&7/&5party &bdisband <player> &7- &fDisband the party.'
+    Mod: '&7/&5party &bmod <player> &7- &fPromote a user to moderator.'
+    Leader: '&7/&5party &bleader <player> &7- &fPromote a user to leader.'
+    Chat: '&7/&5party &bchat <message> &7- &fInteract with the party.'
+    Mute: '&7/&5party &bmute &7- &fMute the party chat.'
+    Status: '&7/&5party &bstatus <open/closed> &7- &fSet the party status.'
+    Warp: '&7/&5party &bwarp &7- &fTeleport the party to your server.'
+    Header: '&d&lParty'
