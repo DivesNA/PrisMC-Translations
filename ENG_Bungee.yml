@@ -40,7 +40,7 @@ Friends:
     Accept: '&7/&5friend &baccept <player> &7- &fAccept a friend request.'
     Add: '&7/&5friend &badd <player> &7- &fAdd a friend.'
     Deny: '&7/&5friend &bdeny <player> &7- &fDecline a friend request.'
-    List: '&7/&5friend &blist <page> &7- &fSee your friends.'
+    List: '&7/&5friend &blist <page> &7- &fSee all your friends you''ve added.'
     Notifications: '&7/&5friend &bnotifications &7- &fToggle friend notifications.'
     Remove: '&7/&5friend &bremove &7- &fRemove a friend.'
     Toggle: '&7/&5friend &btoggle &7- &fToggle friend requests.'
@@ -51,17 +51,17 @@ Friends:
     TimedOutFrom: '&5Friends: &cYour friend request from &e[PLAYER] &chas timed out!'
     TimedOutTo: '&5Friends: &cYour friend request to &e[PLAYER] &chas timed out!'
     Sent: '&5Friends: &aYou have successfully sent a friend request!'
-    AlreadySent: '&5Friends: &cYou have already sent that player a request.'
-    AlreadyReceived: '&5Friends: &cYou have already received a request from that player.'
+    AlreadySent: '&5Friends: &cYou''ve already sent that player a friend request.'
+    AlreadyReceived: '&5Friends: &cYou have already received a friend request from this player!'
     AlreadyFriends: '&5Friends: &cYou are already friends with this player.'
     Request: '&6[PLAYER] &ehas sent you a friend request!'
     ADD: '&a&lADD'
     OR: '&7 or '
     DENY: '&c&lDENY'
-    ADDHover: '&7Click me to accept this request.'
-    DENYHover: '&7Click me to deny this request.'
+    ADDHover: '&7Click me to accept this friend request.'
+    DENYHover: '&7Click me to deny this friend request.'
   Accept:
-    NoRequest: '&5Friends: &cYou do not have a request from this player.'
+    NoRequest: '&5Friends: &cYou have''nt received a friend request from this player.'
     NowFriends: '&5Friends: &aYou are now friends with &e[PLAYER]&a!'
   List:
     Header: '&d&lYour Friends'
@@ -85,7 +85,7 @@ Friends:
     BFFRemoved: '&5Friends: &e[PLAYER] &chas removed you from their friends list!'
     FrenemyRemoved: '&5Friends: &e[PLAYER] &ahas been removed from your friends list!'
   Deny:
-    NoRequest: '&5Friends: &cYou do not have a request from this player.'
+    NoRequest: '&5Friends: &cYou haven''t received a friend request from this player.'
     YouDeclined: '&5Friends: &aYou have declined &e[PLAYER]&a''s friend request.'
     GotDeclined: '&5Friends: &e[PLAYER] &chas declined your friend request.'
   Notifications:
@@ -107,7 +107,7 @@ Message:
   From: '&d[PLAYER] &6messaged you: &e[MESSAGE]'
   To: '&6You messaged &d[PLAYER]: &e[MESSAGE]'
   CantMessagePlayer: '&cYou can''t message this player.'
-  ToggledOff: '&cNo one can send you messages.'
+  ToggledOff: '&cYou will not receive messages.'
   ToggledFriends: '&6Only friends can send you messages.'
   ToggledOn: '&aAnyone can send you messages.'
 Party:
@@ -119,7 +119,7 @@ Party:
     Spacer: '&9-----------------------------------------------------'
   Help:
     Accept: '&7/&5party &baccept <player> &7- &fAccept a party request.'
-    Invite: '&7/&5party &binvite <player> &7- &fInite a player to the party.'
+    Invite: '&7/&5party &binvite <player> &7- &fInvite a player to the party.'
     Kick: '&7/&5party &bkick <player> &7- &fKick a player from the party.'
     Leave: '&7/&5party &bleave <player> &7- &fLeave the party.'
     Disband: '&7/&5party &bdisband <player> &7- &fDisband the party.'
